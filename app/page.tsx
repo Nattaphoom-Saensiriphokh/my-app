@@ -106,6 +106,68 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Education Section */}
+      <section id="education" className="max-w-4xl mx-auto px-6 py-20">
+        <h2 className="text-4xl font-bold text-white mb-12 text-center">
+          Education
+        </h2>
+        <div className="bg-gradient-to-r from-slate-800 to-slate-900 border border-slate-700 rounded-xl p-8 md:p-12 hover:border-cyan-400/50 transition">
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Left Side */}
+            <div className="space-y-4">
+              <div className="flex items-start gap-3">
+                <span className="text-3xl">🎓</span>
+                <div>
+                  <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
+                    Khon Kaen University
+                  </h3>
+                  <p className="text-slate-300 mt-1">
+                    มหาวิทยาลัยขอนแก่น
+                  </p>
+                </div>
+              </div>
+              <div className="pl-12">
+                <p className="text-slate-400 text-sm">
+                  A leading public university in the northeastern region of Thailand, committed to academic excellence and innovation.
+                </p>
+              </div>
+            </div>
+
+            {/* Right Side */}
+            <div className="space-y-4">
+              <div className="flex items-start gap-3">
+                <span className="text-3xl">📚</span>
+                <div>
+                  <h3 className="text-2xl font-bold text-cyan-400">
+                    Faculty of Interdisciplinary Studies
+                  </h3>
+                  <p className="text-slate-300 mt-1">
+                    คณะสหวิทยาการ
+                  </p>
+                </div>
+              </div>
+              <div className="pl-12">
+                <p className="text-slate-400 text-sm">
+                  Fostering innovative thinking and collaboration across multiple disciplines to prepare students for modern challenges.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Details */}
+          <div className="mt-8 pt-8 border-t border-slate-700 grid md:grid-cols-2 gap-6">
+            <div className="space-y-2">
+              <p className="text-slate-400">Student ID:</p>
+              <p className="text-lg font-mono text-cyan-400">673450189-9</p>
+            </div>
+            <div className="space-y-2">
+              <p className="text-slate-400">Location:</p>
+              <p className="text-lg text-slate-300">Khon Kaen, Thailand</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="max-w-4xl mx-auto px-6 py-12 border-t border-slate-700 mt-20">
         <div className="text-center">
